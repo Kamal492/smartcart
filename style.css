@@ -47,7 +47,7 @@ body{
   right:0;
   background-color: #fff; /* Black*/
   overflow-x: hidden; /* Disable horizontal scroll */
-  padding: 60px 0 60px; /* Place content 60px from the top */
+  padding: 60px 0 100px; /* Place content 60px from the top */
   transition: 0.5s; /* 0.5 second transition effect to slide in the sidepanel */
   text-align: center;
 }
@@ -150,7 +150,7 @@ text-align: center;}
     background-size: contain;
     background-repeat: no-repeat;
   text-align: center;
-  height:25rem;
+  height:20rem;
 
 }
 }
@@ -555,6 +555,10 @@ footer span{
   border:1px solid white;
 }
 @media(max-width:768px){
+.mbi{
+  padding:2rem 3rem;
+  text-align: center;
+}
   .car-div p{
     font-size: 1rem;
   }
@@ -598,7 +602,7 @@ footer span{
   .surprises{
     background:linear-gradient(to top right,#342ead,#3e64ff);
     text-align: center;
-    padding:3rem 6rem 6rem;
+    padding:3rem 3rem 6rem;
     height:auto;
   }
   .mbi h2{
